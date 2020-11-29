@@ -13,7 +13,7 @@ using System.Xml.Linq;
 
 namespace Mühle
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         // Create Buttons which represent the playable stones
         PlayStone[,,] buttons = new PlayStone[3, 3, 3];
@@ -835,7 +835,7 @@ namespace Mühle
                 txtturn.Text = "Spieler 2";
             }
         }
-        public Form1()
+        public MainForm()
         {
             // loads various components on the start of the program
             InitializeComponent();
